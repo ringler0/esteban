@@ -1,0 +1,20 @@
+db.sesion_de_estudio.insert({
+... tecnica_empleada:{
+... tecnica: "Comprension";
+... fase_activa: 1;}
+... fecha_creacion: new Date();
+... grupos: ["estudio","algebra","calculo"],
+... foros: ["prueba1","control","ayudantia_A"],
+... estado: "Proceso",
+... documentos: [documentos:{
+... tipo: "pdf",
+... fecha_creacion: new Date(),
+... autores: ["Alex","Juan"]
+... }
+... documentos:{
+... tipo: "docx",
+... fecha_creacion: new Date(),
+... autores: ["Sebastian","Paula"]
+... }
+... ]
+... disciplina
